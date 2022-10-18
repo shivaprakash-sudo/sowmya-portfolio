@@ -1,0 +1,20 @@
+{
+  "name": "sowmya-portfolio",
+  "version": "1.0.0",
+  "description": "Sowmya's portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivaprakash-sudo/sowmya-portfolio.git"
+  },
+  "keywords": [],
+  "author": "Shiva Prakash Pendem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivaprakash-sudo/sowmya-portfolio/issues"
+  },
+  "homepage": "https://github.com/shivaprakash-sudo/sowmya-portfolio#readme"
+}
