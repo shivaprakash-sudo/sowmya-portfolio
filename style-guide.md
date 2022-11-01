@@ -22,5 +22,5 @@
 
 ### Font
 
-- Family: Montserrat
-- Weights: 400, 700
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 400, 600, 700
