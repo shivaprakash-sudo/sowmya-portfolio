@@ -24,3 +24,7 @@
 
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 400, 600, 700
+
+### Icons
+
+- Icons from - [Icon-Icons](https://icon-icons.com/)
