@@ -4,7 +4,8 @@
   "description": "Sowmya's portfolio",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss ./styles/tailwind.css -o ./styles/styles.css"
+    "build:css": "postcss ./styles/tailwind.css -o ./styles/styles.css",
+    "tailwind": "tailwind -i ./styles/tailwind.css -o ./styles/styles.css --watch"
   },
   "repository": {
     "type": "git",
