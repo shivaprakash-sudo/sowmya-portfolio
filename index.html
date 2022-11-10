@@ -14,6 +14,12 @@
       rel="stylesheet"
     />
 
+    <!-- <style>
+      * {
+        outline: 1px solid red;
+      }
+    </style> -->
+
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -23,7 +29,7 @@
       <a href="./index.html">
         <img class="w-8 h-8" src="./images/logo.svg" alt="Chart line" />
       </a>
-      <nav class="py-8 lg:w-[90%]">
+      <nav class="py-8">
         <button id="icon-menu" class="hover:cursor-pointer lg:hidden">
           <img
             class="text-black"
@@ -35,9 +41,12 @@
           id="triangle"
           class="absolute top-20 right-0 w-7 h-7 hidden [background:linear-gradient(to_bottom_right,_transparent_0%,_transparent_50%,_#E5E7EB_50%,_#E5E7EB_100%)] lg:hidden"
         ></div>
-        <div id="nav-links" class="absolute hidden w-full left-0 top-[6.5rem]">
+        <div
+          id="nav-links"
+          class="absolute hidden w-full left-0 top-[6.5rem] lg:[position:inherit] lg:block"
+        >
           <ul
-            class="bg-gray-200 py-9 flex flex-col items-center gap-5 text-gray-300 text-lg font-semibold lg:[position:inherit] lg:bg-transparent lg:flex lg:flex-row lg:gap-16 lg:top-0 lg:p-0 lg:w-max lg:text-gray-100"
+            class="bg-gray-200 py-9 flex flex-col items-center gap-5 text-gray-300 text-lg font-semibold lg:bg-transparent lg:flex lg:flex-row lg:gap-16 lg:top-0 lg:p-0 lg:w-max lg:text-gray-100"
           >
             <li>
               <a
@@ -104,9 +113,9 @@
           </article>
           <div>
             <button
-              class="px-10 py-3 flex items-center justify-center border rounded-md border-primary-purple hover:bg-primary-purple hover:text-white transition duration-200 ease-in-out"
+              class="px-10 py-3 flex items-center justify-center border-2 rounded-md border-primary-purple hover:bg-primary-purple hover:text-white transition duration-200 ease-in-out"
             >
-              <a href="#" class="text-md">View CV</a>
+              <a href="#" class="text-md font-semibold">View CV</a>
             </button>
           </div>
           <div class="icons">
